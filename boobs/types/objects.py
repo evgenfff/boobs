@@ -175,6 +175,7 @@ class Message(Model):
     web_app_data: "WebAppData | None" = None
     reply_markup: "InlineKeyboardMarkup | None" = None
 
+Cock = Message()
 
 class MessageId(Model):
     """
