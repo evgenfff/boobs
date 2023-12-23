@@ -41,7 +41,7 @@ class BotUpdateType(Enum):
 
 
 class MessageUpdate(BaseUpdate, Message):
-    async def answer(
+    async def cum(
         self,
         text: str,
         parse_mode: str | None = None,
