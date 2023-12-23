@@ -5,6 +5,7 @@ from .objects import (
     User as User,
     Chat as Chat,
     Message as Message,
+    Message as Cock,
     MessageId as MessageId,
     MessageEntity as MessageEntity,
     PhotoSize as PhotoSize,
