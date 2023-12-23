@@ -1,7 +1,7 @@
 from .base import BaseUpdate
 from .types import *
 
-Message = MessageUpdate
+Cock = Message = MessageUpdate
 CallbackQuery = CallbackQueryUpdate
 InlineQuery = InlineQueryUpdate
 ChatJoinRequest = ChatJoinRequestUpdate
@@ -15,6 +15,7 @@ Poll = PollUpdate
 __all__ = (
     "BaseUpdate",
     "BotUpdateType",
+    "Cock",
     "Message",
     "CallbackQuery",
     "InlineQuery",
